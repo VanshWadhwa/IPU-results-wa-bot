@@ -60,8 +60,6 @@ client.on("message", async (message) => {
     for (var i = 0; i < resultMsgsList.length; i++) {
       message.reply(resultMsgsList[i]);
     }
-    // message.reply(resultMsgsList[2]);
-    // message.reply(resultMsgsList[4]);
   } else if (message.body === "result") {
     message.reply(
       `Please send the request in this format " !result 04796203120 "`
