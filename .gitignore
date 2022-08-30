@@ -1,3 +1,5 @@
 /node_modules
 .env
 testResult.json
+.wwebjs_auth
+try2.js
